@@ -12,8 +12,12 @@
 
 
 -JavaScript has the following kinds of scopes:
+
+
 -Block scope: This scope restricts the variable that is declared
 inside a specific block, from access by the outside of the block.
+
+
 -Module scope: The scope for code running in module mode.
 
 ![](/Screenshot%202023-04-16%20at%2014-27-13%20JAVA%20SCRIPT%20-%20LectureNew-2.pdf.png "")
