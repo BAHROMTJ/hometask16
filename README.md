@@ -6,7 +6,11 @@
 
 ## JavaScript has the following kinds of scopes:
  -Global scope: The default scope for all code running in script mode.
+
+
 -Function scope: The scope created with a function.
+
+
 -JavaScript has the following kinds of scopes:
 -Block scope: This scope restricts the variable that is declared
 inside a specific block, from access by the outside of the block.
