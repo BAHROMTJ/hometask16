@@ -14,7 +14,12 @@
 
 **-Block scope:** This scope restricts the variable that is declared
 inside a specific block, from access by the outside of the block.
+`let carName = "Volvo";
+// code here can use carName
 
+function myFunction() {
+// code here can also use carName
+}`.
 
 **-Module scope:** The scope for code running in module mode.
 
