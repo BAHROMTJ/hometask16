@@ -14,12 +14,28 @@
 
 **-Block scope:** This scope restricts the variable that is declared
 inside a specific block, from access by the outside of the block.
-`let carName = "Volvo";
-// code here can use carName
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Scope</h2>
+
+<p>A GLOBAL variable can be accessed from any script or function.</p>
+
+<p id="demo"></p>
+
+<script>
+let carName = "Volvo";
+myFunction();
 
 function myFunction() {
-// code here can also use carName
-}`.
+  document.getElementById("demo").innerHTML = "I can display " + carName;
+}
+</script>
+
+</body>
+</html>
+
 
 **-Module scope:** The scope for code running in module mode.
 
