@@ -15,28 +15,12 @@
 **-Block scope:** This scope restricts the variable that is declared
 inside a specific block, from access by the outside of the block.
 
-<html>
-<body>
-
-<h2>JavaScript Scope</h2>
-
-<p>A GLOBAL variable can be accessed from any script or function.</p>
-
-<p id="demo"></p>
-
-<script>
-let carName = "Volvo";
-myFunction();
-
-function myFunction() {
-  document.getElementById("demo").innerHTML = "I can display " + carName;
-}
-</script>
-
-</body>
-</html>
 
 
 **-Module scope:** The scope for code running in module mode.
 
-![](/Screenshot%202023-04-16%20at%2014-27-13%20JAVA%20SCRIPT%20-%20LectureNew-2.pdf.png "")
+![](/function-scope.png "")
+
+
+
+
