@@ -24,3 +24,29 @@ inside a specific block, from access by the outside of the block.
 
 
 
+
+## JavaScript Hoisting
+
+**JavaScript Declarations are Hoisted**
+
+**In JavaScript, a variable can be declared after it has been used.**
+Ключевые слова let и const
+
+Переменные, определенные с помощью letи constподнимаются наверх блока, но не инициализируется .
+
+Значение: Блок кода знает о переменная, но ее нельзя использовать, пока она не будет объявлена.
+
+Используя letпеременная до того, как она будет объявлена, приведет к ReferenceError.
+
+Переменная находится во «временной мертвой зоне» с самого начала. блока, пока он не будет объявлен: 
+![](/1627537525920.png "")
+
+
+
+
+
+
+
+
+
+
