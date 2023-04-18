@@ -14,7 +14,7 @@
 
 **-Block scope:** This scope restricts the variable that is declared
 inside a specific block, from access by the outside of the block.
-<!DOCTYPE html>
+
 <html>
 <body>
 
